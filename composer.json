@@ -1,0 +1,18 @@
+{
+    "name": "phoenix/phing",
+    "description": "Code for building and deploying phoenix sites",
+    "require-dev": {
+        "phing/phing": "~2.9@dev"
+    },
+    "authors": [
+        {
+            "name": "Steve Easley",
+            "email": "steve.easley@cbsinteractive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Phoenix\\": "src/"}
+    }
+}
