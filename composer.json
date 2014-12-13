@@ -1,8 +1,15 @@
 {
     "name": "phoenix/phing",
     "description": "Code for building and deploying phoenix sites",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:cbsi/phoenix.git"
+        }
+    ],
     "require-dev": {
-        "phing/phing": "~2.9@dev"
+        "phing/phing": "~2.9@dev",
+        "phoenix": "@dev"
     },
     "authors": [
         {
@@ -11,8 +18,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {"Phoenix\\": "src/"}
-    }
+    "require": {}
 }
