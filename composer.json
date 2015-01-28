@@ -5,10 +5,16 @@
         {
             "type": "git",
             "url": "git@github.com:cbsi/phoenix.git"
+        },
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
         }
     ],
     "require-dev": {
         "phing/phing": "~2.9@dev",
+        "pear/versioncontrol_git": "@dev",
+        "pear-pear.php.net/HTTP_Request2": "2.2.x",
         "phoenix": "@dev"
     },
     "authors": [
@@ -18,5 +24,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"Phoenix\\": "vendor/phoenix/Phoenix"}
+    }
 }
