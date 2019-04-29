@@ -24,7 +24,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "pear/archive_tar": "^1.4@dev"
+    },
     "autoload": {
         "psr-4": {"Phoenix\\": "vendor/phoenix/Phoenix"}
     }
