@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9edc49fbafc1cb7ff1c3358b04b150e2",
-    "packages": [
+    "content-hash": "1f0f3f947059c9fca2315fd063d5e954",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "pear/archive_tar",
             "version": "dev-master",
@@ -120,6 +121,122 @@
             "time": "2019-02-06T16:52:33+00:00"
         },
         {
+            "name": "pear/http_request2",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/HTTP_Request2.git",
+                "reference": "d6c81670c504045248c1afdf896bb9a3288158de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/HTTP_Request2/zipball/d6c81670c504045248c1afdf896bb9a3288158de",
+                "reference": "d6c81670c504045248c1afdf896bb9a3288158de",
+                "shasum": ""
+            },
+            "require": {
+                "pear/net_url2": ">=2.0.0",
+                "pear/pear_exception": "*",
+                "php": ">=5.2.0"
+            },
+            "suggest": {
+                "ext-fileinfo": "Adds support for looking up mime-types using finfo.",
+                "ext-zlib": "Allows handling gzip compressed responses.",
+                "lib-curl": "Allows using cURL as a request backend.",
+                "lib-openssl": "Allows handling SSL requests when not using cURL."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTTP_Request2": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Borzov",
+                    "email": "avb@php.net",
+                    "role": "Developer HTML_Common2"
+                }
+            ],
+            "description": "Provides an easy way to perform HTTP requests.",
+            "homepage": "http://pear.php.net/package/HTTP_Request2",
+            "keywords": [
+                "PEAR",
+                "curl",
+                "http",
+                "request"
+            ],
+            "time": "2014-01-16T17:27:21+00:00"
+        },
+        {
+            "name": "pear/net_url2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Net_URL2.git",
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/07fd055820dbf466ee3990abe96d0e40a8791f9d",
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "Net/URL2.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Coallier",
+                    "email": "davidc@php.net"
+                },
+                {
+                    "name": "Tom Klingenberg",
+                    "email": "tkli@php.net"
+                },
+                {
+                    "name": "Christian Schmidt",
+                    "email": "chmidt@php.net"
+                }
+            ],
+            "description": "Class for parsing and handling URL. Provides parsing of URLs into their constituent parts (scheme, host, path etc.), URL generation, and resolving of relative URLs.",
+            "homepage": "https://github.com/pear/Net_URL2",
+            "keywords": [
+                "PEAR",
+                "net",
+                "networking",
+                "rfc3986",
+                "uri",
+                "url"
+            ],
+            "time": "2017-08-25T06:16:11+00:00"
+        },
+        {
             "name": "pear/pear-core-minimal",
             "version": "v1.10.9",
             "source": {
@@ -217,131 +334,6 @@
                 "exception"
             ],
             "time": "2015-02-10T20:07:52+00:00"
-        }
-    ],
-    "packages-dev": [
-        {
-            "name": "pear/http_request2",
-            "version": "dev-trunk",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pear/HTTP_Request2.git",
-                "reference": "3599cf0fe455a4e281da464f6510bfc5c2ce54c4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pear/HTTP_Request2/zipball/3599cf0fe455a4e281da464f6510bfc5c2ce54c4",
-                "reference": "3599cf0fe455a4e281da464f6510bfc5c2ce54c4",
-                "shasum": ""
-            },
-            "require": {
-                "pear/net_url2": "^2.2.0",
-                "pear/pear_exception": "^1.0.0",
-                "php": ">=5.2.0"
-            },
-            "suggest": {
-                "ext-fileinfo": "Adds support for looking up mime-types using finfo.",
-                "ext-zlib": "Allows handling gzip compressed responses.",
-                "lib-curl": "Allows using cURL as a request backend.",
-                "lib-openssl": "Allows handling SSL requests when not using cURL."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-trunk": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "HTTP_Request2": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "./"
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Alexey Borzov",
-                    "email": "avb@php.net"
-                }
-            ],
-            "description": "Provides an easy way to perform HTTP requests.",
-            "homepage": "http://pear.php.net/package/HTTP_Request2",
-            "keywords": [
-                "PEAR",
-                "curl",
-                "http",
-                "request"
-            ],
-            "time": "2016-02-13T20:20:39+00:00"
-        },
-        {
-            "name": "pear/net_url2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pear/Net_URL2.git",
-                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/07fd055820dbf466ee3990abe96d0e40a8791f9d",
-                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.1.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=3.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "Net/URL2.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "./"
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "David Coallier",
-                    "email": "davidc@php.net"
-                },
-                {
-                    "name": "Tom Klingenberg",
-                    "email": "tkli@php.net"
-                },
-                {
-                    "name": "Christian Schmidt",
-                    "email": "chmidt@php.net"
-                }
-            ],
-            "description": "Class for parsing and handling URL. Provides parsing of URLs into their constituent parts (scheme, host, path etc.), URL generation, and resolving of relative URLs.",
-            "homepage": "https://github.com/pear/Net_URL2",
-            "keywords": [
-                "PEAR",
-                "net",
-                "networking",
-                "rfc3986",
-                "uri",
-                "url"
-            ],
-            "time": "2017-08-25T06:16:11+00:00"
         },
         {
             "name": "pear/versioncontrol_git",
@@ -487,7 +479,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cbsi/phoenix.git",
-                "reference": "122a8839a3c1a5d5ba9017c4f5a14b5b0ecba83b"
+                "reference": "a2b1523f0a04217bd2398194be14fe8bcfc7d8a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cbsi/phoenix/zipball/a2b1523f0a04217bd2398194be14fe8bcfc7d8a6",
+                "reference": "a2b1523f0a04217bd2398194be14fe8bcfc7d8a6",
+                "shasum": ""
             },
             "type": "symfony-bundle",
             "authors": [
@@ -498,7 +496,11 @@
             ],
             "description": "Games Core and CMS",
             "homepage": "http://github.com/cbsi/phoenix",
-            "time": "2019-04-11T18:07:47+00:00"
+            "support": {
+                "source": "https://github.com/cbsi/phoenix/tree/v2019.07.08.11.16",
+                "issues": "https://github.com/cbsi/phoenix/issues"
+            },
+            "time": "2019-07-02T21:43:39+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -545,7 +547,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -621,9 +623,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pear/archive_tar": 20,
         "phing/phing": 20,
         "pear/versioncontrol_git": 20,
+        "pear/archive_tar": 20,
         "phoenix": 20
     },
     "prefer-stable": false,

@@ -1,33 +1,21 @@
 {
-    "name": "phoenix/phing",
+    "name": "cbsi/phing",
     "description": "Code for building and deploying phoenix sites",
     "repositories": [
         {
-            "type": "git",
-            "url": "git@github.com:cbsi/phoenix.git"
-        },
-        {
-            "type": "pear",
-            "url": "https://pear.php.net"
+            "type": "vcs",
+            "url": "https://github.com/cbsi/phoenix.git"
         }
     ],
+    "autoload": {
+        "psr-4": {"Phoenix\\": "vendor/phoenix/Phoenix"}
+    },
+    "minimum-stability": "dev",
     "require-dev": {
         "phing/phing": "~2.9@dev",
         "pear/versioncontrol_git": "@dev",
         "pear/http_request2": "2.2.x",
+        "pear/archive_tar": "^1.4@dev",
         "phoenix": "@dev"
-    },
-    "authors": [
-        {
-            "name": "Steve Easley",
-            "email": "steve.easley@cbsinteractive.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "pear/archive_tar": "^1.4@dev"
-    },
-    "autoload": {
-        "psr-4": {"Phoenix\\": "vendor/phoenix/Phoenix"}
     }
 }
