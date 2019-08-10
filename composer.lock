@@ -479,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cbsi/phoenix.git",
-                "reference": "a2b1523f0a04217bd2398194be14fe8bcfc7d8a6"
+                "reference": "2193914cc9542a407aa161c8920fa7af98a4b41a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cbsi/phoenix/zipball/a2b1523f0a04217bd2398194be14fe8bcfc7d8a6",
-                "reference": "a2b1523f0a04217bd2398194be14fe8bcfc7d8a6",
+                "url": "https://api.github.com/repos/cbsi/phoenix/zipball/2193914cc9542a407aa161c8920fa7af98a4b41a",
+                "reference": "2193914cc9542a407aa161c8920fa7af98a4b41a",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -497,10 +497,10 @@
             "description": "Games Core and CMS",
             "homepage": "http://github.com/cbsi/phoenix",
             "support": {
-                "source": "https://github.com/cbsi/phoenix/tree/v2019.07.08.11.16",
+                "source": "https://github.com/cbsi/phoenix/tree/v2019.08.08.13.07",
                 "issues": "https://github.com/cbsi/phoenix/issues"
             },
-            "time": "2019-07-02T21:43:39+00:00"
+            "time": "2019-08-08T20:06:48+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
