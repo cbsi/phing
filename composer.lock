@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f0f3f947059c9fca2315fd063d5e954",
+    "content-hash": "6a8d92217c953bc0b1daa285935c5f25",
     "packages": [],
     "packages-dev": [
         {
@@ -479,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cbsi/phoenix.git",
-                "reference": "2193914cc9542a407aa161c8920fa7af98a4b41a"
+                "reference": "7cb81e2111af5a0a801aed8221b649a5236eaa05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cbsi/phoenix/zipball/2193914cc9542a407aa161c8920fa7af98a4b41a",
-                "reference": "2193914cc9542a407aa161c8920fa7af98a4b41a",
+                "url": "https://api.github.com/repos/cbsi/phoenix/zipball/7cb81e2111af5a0a801aed8221b649a5236eaa05",
+                "reference": "7cb81e2111af5a0a801aed8221b649a5236eaa05",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -497,10 +497,10 @@
             "description": "Games Core and CMS",
             "homepage": "http://github.com/cbsi/phoenix",
             "support": {
-                "source": "https://github.com/cbsi/phoenix/tree/v2019.08.08.13.07",
+                "source": "https://github.com/cbsi/phoenix/tree/v2019.08.22.12.13",
                 "issues": "https://github.com/cbsi/phoenix/issues"
             },
-            "time": "2019-08-08T20:06:48+00:00"
+            "time": "2019-08-22T18:39:42+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

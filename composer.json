@@ -16,6 +16,6 @@
         "pear/versioncontrol_git": "@dev",
         "pear/http_request2": "2.2.x",
         "pear/archive_tar": "^1.4@dev",
-        "phoenix": "@dev"
+        "phoenix": "dev-master"
     }
 }
